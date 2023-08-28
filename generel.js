@@ -3,7 +3,7 @@ fetch("https://kea-alt-del.dk/t7/api/products")
 .then(showProduct)
 
 function showHProduct(products){
-    products.forEach(showroducts)
+    products.forEach(showProduct)
 }
 
 function showProduct(product){
