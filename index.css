@@ -1,0 +1,148 @@
+
+
+/************************* generelt ********************/
+body{background-color: rgb(230, 230, 230);}
+h1,h2,p,a{font-family: Arial, Helvetica, sans-serif;}
+a{text-decoration: none;
+color: rgb(255, 255, 255);
+font-size: 1.3rem;}
+
+li{list-style-type: none;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 5%;}
+h1{text-align: center;
+margin-top: 18%;
+font-size: 400%;
+color: rgb(0, 0, 0);}
+h2{text-align: center;
+margin-top: 5%;}
+
+
+/*************************** menu ***************************/
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: black;
+  
+  
+  }
+  
+  
+
+  .menu {
+    display: flex;
+
+  }
+
+
+
+  .forside_tekst{
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+
+  /********************** kategori bokse ***************************/
+
+  .boks{
+    padding: 30px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .kategori_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10%;
+  }
+
+  /****************************** produktliste **************************/
+
+  .produktliste_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5%;
+    margin-bottom: 10%;
+ 
+  }
+
+  img{width: 65%;}
+  
+  .produkt_venstre{
+    margin-left: 35%;
+  }
+
+  .produkt_højre{
+    margin-left: 5%;
+  }
+
+
+
+  .produkt_info{
+color: black;
+margin-top: 1%;
+  }
+
+
+
+  .produkt_container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .discount_info {
+    position: absolute;
+    top: 0;
+    left: 35%;
+    background-color: rgba(255, 0, 0, 0.7); /* Background color for the discount info */
+    padding: 5px 10px;
+    margin: 0;
+    color: white;
+    font-size: 1.2rem;
+  }
+
+  .discount_info2 {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    background-color: rgba(0, 0, 0, 0.7); /* Background color for the discount info */
+    padding: 5px 10px;
+    margin: 0;
+    color: white;
+    font-size: 1.2rem;
+  }
+  
+
+
+
+  /********************************** produkt **********************/
+
+
+  .produkt img{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .produkt_grid h2{
+    margin-top: 10%;
+    text-align: start;
+
+  }
+
+  .produkt_grid p{
+    margin-right: 30%;
+  }
+
+  .produkt_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  ul{padding-left: 0%;}
+
+  
