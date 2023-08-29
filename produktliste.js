@@ -20,6 +20,7 @@ function showProduct(product){
     }
     //vis pris//
     copy.querySelector(".pris").textContent = product.price;
+    copy.querySelector("img").src = `https://kea-alt-del.dk/t7/images/webp/640/${product.id}.webp`;
     //vis discount//
     copy.querySelector("span").textContent = product.discount;
     if(product.discount > 0){
