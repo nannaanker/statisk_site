@@ -82,6 +82,7 @@ header {
   .produkt_info{
 color: black;
 margin-top: 1%;
+margin-left: 5%;
   }
 
 
@@ -93,8 +94,8 @@ margin-top: 1%;
   
   .discount_info {
     position: absolute;
-    top: 0;
-    left: 35%;
+    top: 7%;
+    left: 5%;
     background-color: rgba(255, 0, 0, 0.7); /* Background color for the discount info */
     padding: 5px 10px;
     margin: 0;
@@ -105,11 +106,16 @@ margin-top: 1%;
   .udsolgt_overlay::after {
     position: absolute;
     content: "udsolgt";
-    background-color: rgba(0, 0, 0, 0.7); /* Background color for the discount info */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.45); /* Background color for the discount info */
     padding: 5px 10px;
-    margin: 0;
     color: white;
     font-size: 1.2rem;
+    margin-left: 2.3%;
+    margin-top: 56%;
+    z-index: 1;
+    
+    
   }
 
 
@@ -129,6 +135,12 @@ margin-top: 1%;
   }
 
   .produkt_grid h2{
+    margin-top: 10%;
+    text-align: start;
+
+  }
+
+  .produkt_grid h1{
     margin-top: 10%;
     text-align: start;
 
